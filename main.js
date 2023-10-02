@@ -2,6 +2,7 @@
 function changeWallpaper(wallpaper) {
     document.querySelector("body").style.background = "url('images/" + wallpaper + "') no-repeat center center fixed";
     document.querySelector("body").style.backgroundSize = "100%";
+    document.querySelector("body").style.backgroundSize = "cover";
     document.getElementById("reset").style.color = '#FFFBD4';
 }
 
